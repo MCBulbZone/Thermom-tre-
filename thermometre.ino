@@ -59,8 +59,8 @@ uint32_t green =pixels.Color( 0,255,0);
 //stocker la valeur en milli pour le temps entre chaque affichage de la température
 long previousMillis = 0;        // stock la derniere valeur milli pour la température
 long previousMillis2 = 0;        // stock la dernière valeur milli pour la fonction bonus
-//long interval = 120000;           // temps entre chaque coupure et la durée totale d'allumage
-//long interval2 =1800000;           // bonus "STAND UP"
+long interval = 120000;           // temps entre chaque coupure et la durée totale d'allumage
+long interval2 =1800000;           // bonus "STAND UP"
 
 void setup() {
 //initialiser les NEOPIXELS
