@@ -3,19 +3,17 @@ Code exemple pour le thermomètre imprimable.
 Ce code permet d'allumer avec des intervalles définis (permet d'economiser la batterie)
 les leds afin d'indiquer la température ambiante avec une précision de 5 degrés.
 
-cette précision est due au nombre de LED sur la face avant, mais rien ne vous empeche
-de creer des effets lumineux afin d'augmenter la précision.
+cette précision est due au nombre de LED sur la face avant, mais rien ne vous empêche
+de créer des effets lumineux afin d'augmenter la précision.
 
 Vous pouvez définir une température de seuil minimum et maximum grace aux variables 
 "tempmin" et "temp Max", cela activera un effet lumineux vous avertissant que le seuil est dépassé.
 
 une fonction bonus permet de faire un chenillard avec les leds afin de vous prévenir 
-qu'il est temps de vous lever de votre chaise pour prendre un café, marcher un peu ou 
-tout simplement éviter les courbatures dans le dos.
-
+qu'il est temps de vous lever de votre chaise pour prendre un café ou marcher un peu.
 Les leds sont connectées à la PIN 3 du pro Trinket et le capteur à la PIN 4.
 
-code écrit par Michael Captant 
+code écrit par Mickaël Captant. 
 Bulb Zone - 2015
 ***************************************************************************************/
 
